@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(morgan('dev'))
 
 
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 3000;
 app.get("/ping", (req, res) => {
   res.send("Pakistan Zindabad2");});
 
